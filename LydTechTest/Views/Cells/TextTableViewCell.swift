@@ -19,7 +19,7 @@ class TextTableViewCell: UITableViewCell {
     
     public func configure(text: String) {
         var content = self.defaultContentConfiguration()
-        content.textProperties.font = UIFont.boldSystemFont(ofSize: UIFont.systemFontSize)
+        content.textProperties.font = UIFont.boldSystemFont(ofSize: UIFont.systemFontSize+2)
         content.text = text
         contentConfiguration = content
     }
@@ -27,7 +27,7 @@ class TextTableViewCell: UITableViewCell {
     public func configure(text: String, detail: String) {
         var content = self.defaultContentConfiguration()
         content.textProperties.font = UIFont.boldSystemFont(ofSize: UIFont.systemFontSize-3)
-        content.secondaryTextProperties.font = UIFont.systemFont(ofSize: UIFont.systemFontSize)
+        content.secondaryTextProperties.font = UIFont.systemFont(ofSize: UIFont.systemFontSize+1)
         content.text = text
         content.secondaryText = detail
         contentConfiguration = content
