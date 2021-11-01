@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  LydTechTest
+
+  Created by VASILIJEVIC Sebastien on 31/10/2021.
+  
+*/
+
+"user_list_title" = "Users";
+
+"user_details_dateOfBirth" = "Date of birth";
+"user_details_registrationDate" = "Registration date";
+"user_details_email" = "Email";
+"user_details_phone" = "Phone";
+"user_details_cell" = "Cell";
+"user_details_address" = "Address";
